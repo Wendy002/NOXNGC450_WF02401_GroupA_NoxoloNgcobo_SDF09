@@ -1,0 +1,17 @@
+/*:root{
+    --ff-orange: #d96943ff;
+    --ff-green: #659e8eff;
+
+}
+
+.footer{
+    width: 100%;
+    background: var(--ff-green);
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.border-line{
+    color: var(--ff-orange);
+}*/
+
