@@ -1,17 +1,23 @@
-/*:root{
-    --ff-orange: #d96943ff;
-    --ff-green: #659e8eff;
+/* tailwind.css */
 
+/* Base styles */
+@tailwind base;
+
+/* Component styles */
+@tailwind components;
+
+/* Utility styles */
+@tailwind utilities;
+
+/* Custom styles */
+.bg-custom-blue {
+    background-color: #659e8eff;
 }
 
-.footer{
-    width: 100%;
-    background: var(--ff-green);
-    justify-content: center;
-    margin: 0 auto;
+.btn-custom-orange {
+    background-color: #d96943ff;
+    /* Add any other button styles you need */
 }
 
-.border-line{
-    color: var(--ff-orange);
-}*/
-
+/* Additional custom styles */
+/* Feel free to add more custom styles here */
