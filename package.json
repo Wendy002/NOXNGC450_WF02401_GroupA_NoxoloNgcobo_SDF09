@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1"
   },
   "name": "noxngc450_wf02401_groupa_noxolongcobo_sdf09",
@@ -97,7 +98,8 @@
     "yaml": "^2.3.4"
   },
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
   "author": "",
