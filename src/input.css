@@ -11,4 +11,9 @@
 }
 .btn-orange-custom {
     background-color: #d96943ff;
+    border-radius: 8px;
 }
+.input-custom{
+    border-radius: 8px;
+}
+
