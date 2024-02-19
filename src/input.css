@@ -16,4 +16,6 @@
 .input-custom{
     border-radius: 8px;
 }
-
+.margin-main{
+    margin: auto 0;
+}
